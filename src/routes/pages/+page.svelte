@@ -335,7 +335,7 @@
         {#if !isActive && !endTime}
             <button
                 on:click={startGame}
-                class="btn btn-accent text-black"
+                class="px-6 py-2 bg-[#6DE1D2] text-blue-950 font-bold rounded-md hover:bg-[#5bc7ba] transition-colors"
             >
                 Start
             </button>
